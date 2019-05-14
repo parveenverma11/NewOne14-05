@@ -4,12 +4,12 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.testng.annotations.Test;
+//import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 public class ImplicitDemo {
 
 	protected WebDriver driver;
-    //@Test
+    @Test
     public void implicitWaitExample() throws InterruptedException
     {
     System.setProperty ("webdriver.chrome.driver","E:\\Sel\\chromedriver.exe");
